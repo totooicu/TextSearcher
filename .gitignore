@@ -1,0 +1,252 @@
+# ================= Qt / qmake 产物 =================
+# Qt Creator 个人本地配置（含 EnvironmentId、本机构建路径）
+*.pro.user
+*.pro.user.*
+# qmake 临时
+.qmake.stash
+.qmake.conf
+# Qt Creator 全局/项目级缓存
+*.qbs.user
+*.qmlproject.user
+*.qmlproject.user.*
+# 自动生成的 ui_*.h / moc_*.cpp / qrc_*.cpp（由构建工具产生）
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.moc
+*.lst
+
+# ================= 构建输出目录 =================
+build-*/
+Build/
+build/
+debug/
+release/
+Debug/
+Release/
+out/
+
+# ================= 编译中间产物 =================
+# 通用
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# MSVC
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.ipa
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.success
+*.cache
+*.opendb
+*.opensdf
+*.sdf
+*.opensr
+*.aps
+*.rcVol
+*.enc
+
+# MSVC 解决方案/项目用户文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.docstates swept
+*.vcproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
+# MSVC IntelliSense / 预编译头缓存
+ipch/
+.vs/
+*.aps
+*.opensdf
+*.sdf
+*.opendb
+
+# MinGW / GCC
+*.gch
+*.gcno
+*.gcda
+*.gcov
+*.tlog
+
+# ================= IDE / 编辑器 =================
+# Qt Creator
+*.qmlproject.user
+*.qbs
+*.qbs.user
+*.pyc
+QtCreator*.xml
+qtcreator.config
+qtcreator.creator
+qtcreator.creator.user
+qtcreator.files
+qtcreator.includes
+qtcreator.cflags
+qtcreator.cxxflags
+qtcreator.project
+qtcreator.snippets
+
+# Visual Studio Code（项目内已存在 .vscode 目录为只读配置，按需保留则注释下行）
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+[Bb]in/
+[Oo]bj/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains（CLion 等）
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / CDT
+.project
+.cproject
+.settings/
+.metadata/
+.loadpath
+.remote-sync
+
+# Sublime / Vim / Emacs
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+\#*\#
+.\#\#
+
+# ================= CMake（如使用） =================
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+Makefile
+cmake-build-*/
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# ================= 调试 / 日志 / 临时 =================
+*.log
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+*.diff
+core
+core.*
+*.stackdump
+*.dmp
+*.trace
+*.heapdump
+heapprof
+heapprof.*
+
+# ================= 系统文件 =================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ================= Python（项目中若用脚本） =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info
+.eggs/
+dist/
+develop-eggs/
+sdist/
+wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ================= Node（若有辅助脚本） =================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.yarn-integrity
+
+# ================= 项目特有 =================
+# 配置文件（由程序运行时生成，含本机外部程序路径）
+TOTOO/TextSearcher/
+
+# 本地用户配置备份
+*.pro.user.bak
+*.pro.user.*
